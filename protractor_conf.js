@@ -35,7 +35,7 @@ exports.config = {
 seleniumAddress: 'http://localhost:4444/wd/hub',
   // Spec patterns are relative to the current working directly when
   // protractor is called.
-  specs: ['./specs/employee_test.js'],
+  specs: ['./specs/*.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {

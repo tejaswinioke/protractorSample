@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="Test Employee create ,delete and edit" timestamp="2015-07-02T19:38:44" hostname="localhost" time="18.566" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Test Employee create ,delete and edit" name="Test successful create employee" time="18.565">
+ <testsuite name="Test Employee create ,delete and edit" timestamp="2015-07-02T19:59:31" hostname="localhost" time="13.429" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Test Employee create ,delete and edit" name="Test successful create employee" time="13.427">
+  </testcase>
+ </testsuite>
+ <testsuite name="Test the Login scenarios" timestamp="2015-07-02T19:59:44" hostname="localhost" time="14.17" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Test the Login scenarios" name="Test successful Login and logout" time="4.487">
+  </testcase>
+ </testsuite>
+ <testsuite name="Test the Login scenarios.check with invalid username and password" timestamp="2015-07-02T19:59:44" hostname="localhost" time="9.68" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Test the Login scenarios.check with invalid username and password" name="enter invalid username and valid password and click login" time="3.254">
+  </testcase>
+  <testcase classname="Test the Login scenarios.check with invalid username and password" name="enter valid username and invalid password and click login" time="3.288">
+  </testcase>
+  <testcase classname="Test the Login scenarios.check with invalid username and password" name="enter invalid username and invalid password and click login" time="3.131">
   </testcase>
  </testsuite>
 </testsuites>
